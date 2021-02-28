@@ -13,8 +13,6 @@ client.on('message', (msg) => {
         return;
     }
 
-    const messageArray = [];
-
     client.channels.cache.get(process.env.CHANNEL).send("```"+msg.content+"```");
 
 })
