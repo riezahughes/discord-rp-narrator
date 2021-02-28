@@ -1,0 +1,24 @@
+{
+  "name": "discord-rp-narrator",
+  "version": "1.0.0",
+  "description": "Just a really simple project to allow slash commands in discord in order to narrate roleplay. A stand-in DM of sorts to set the scene between two people.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riezahughes/discord-rp-narrator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riezahughes/discord-rp-narrator/issues"
+  },
+  "homepage": "https://github.com/riezahughes/discord-rp-narrator#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
